@@ -22,7 +22,7 @@ module.exports = {
     //your modules...
     loaders: [{
       include: /\.jade$/,
-      loader: 'jade-html-loader'
+      loader: 'pug-html-loader'
     }]
   ]
 };
